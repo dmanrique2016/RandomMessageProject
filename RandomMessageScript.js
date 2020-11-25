@@ -6,3 +6,5 @@ const food = ['Scrambled eggs','Cereals','Corn flakes','Omellete','Salad','Soup'
 let random_time = times[Math.floor(Math.random()*times.length)]
 let random_meal = meals[Math.floor(Math.random()*meals.length)]
 let random_food = food[Math.floor(Math.random()*food.length)]
+
+console.log(`${random_time}'s ${random_meal} is ${random_food}`)
